@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: 'FuturaStd-Bold';
+  src: url('FuturaStd-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaStd-Bold';
+  src:  url('FuturaStd-Bold.otf')  format('opentype'),
+	    url('FuturaStd-Bold.otf') format('woff'),
+		url('FuturaStd-Bold.ttf')  format('truetype'),
+		url('FuturaStd-Bold.svg#FuturaStd-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+

@@ -1,0 +1,396 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Horry Puree</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/fluid_grid-16.css">
+<!--<link rel="stylesheet" href="css/fluid_grid-16.css">
+<link rel="stylesheet" href="css/media.css">-->
+<script src="js/libs/modernizr-2.5.3.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/config.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#openPopUp").click(function(){
+        $("#popUpAll").css('display','block');
+		$("#popUpAll div#popUpOne").css('display','block');
+    });
+	
+	$("#nextButtonPopUp").click(function(){
+        //$("#popUpAll").css('display','block');
+		$("#popUpAll div#popUpOne").css('display','none');
+		$("#popUpAll div#popUpTwo").css('display','block');
+    });
+	
+	
+	$("#submitButtonPopUpOne").click(function(){
+        //$("#popUpAll").css('display','block');
+		$("#popUpAll div#popUpTwo").css('display','none');
+		$("#popUpAll div#popUpThree").css('display','block');
+    });
+	
+	$("#submitButtonPopUpTwo").click(function(){
+        //$("#popUpAll").css('display','block');
+		$("#popUpAll div#popUpThree").css('display','none');
+		$("#popUpAll div#popUpFour").css('display','block');
+    });
+	
+	
+	
+	$(".closePopUp").click(function(){
+        $("#popUpAll").css('display','none');
+		$("#popUpAll > div").css('display','none');
+    });
+	
+	
+	
+	
+});
+</script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="container_16">
+            <div class="grid_9 logoWrap">
+            	<div class="logo">
+     				<a href="#."><img src="images/logoimg.png" alt="Horry Puree Veggies made Easy!" title="Horry Puree Veggies made Easy!" /></a>
+                </div>
+            </div>
+            <div class="grid_7">
+            	<ul class="socialLikeUs">
+                	<li>
+                    	<a href="#."><img src="images/facebook-like-button.png" alt="Like Us on Facebook" title="Like Us on Facebook" /></a>
+                    </li>
+                	<li>
+                    	<a href="#."><img src="images/tweet-like-button.png" alt="Follow Us on Twitter" title="Follow Us on Twitter" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </div>
+</header>
+<section class="pagedata pagedataBg">
+    <div class="container containerHomMedain">
+        <div class="container_16">
+            <div class="grid_9 howToUse">
+                <h1>learn 50 ways <br /> to use  <br /> hooray puree!</h1>
+                <div class="playPopup openPopUp" id="openPopUp">
+                	<span class="playPopupButton"> </span>
+                </div>
+    		</div>
+            <div class="grid_7 advertisement">
+            <div class="advertisementBanner">
+            <img src="images/advBanner.png" />
+            </div>
+        <h3>Share your favorite way to use  <br /> Hooray Puree for a chance to <br /><span class="textGreenB">win a new ipad!</span></h3>
+        <div class="socialButtonBig">
+            <ul>
+                <li class="faceBook-contact">
+                  <a href="#."><img src="images/facebook-contact-button.png" alt="Enter Contest via Facebook!" title="Enter Contest via Facebook!" /></a>
+                </li>
+                <li class="tweet-contact">
+                    <a href="#."><img src="images/tweet-contact-button.png" alt="Entear contect via Twitter!" title="Entear contect via Twitter!" /></a>
+                </li>
+            </ul>
+                </div>
+    		</div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+  <div class="container_16 footer_followUs">
+    <div class="grid_2">&nbsp;</div>
+    <div class="grid_12">
+		<div class="followUStext">
+        	Follow Us
+        </div>
+        <div class="folloUsLinksWrap">
+        	<ul class="folloUsLinks">
+            <li>
+                <a href="#.">
+                <img src="images/tweet-icon.png" alt="Twitter" title="Twitter" />
+                </a>
+            </li>
+           	<li>
+               <a href="#.">
+               <img src="images/facebook-icon.png" alt="Facebook" title="Facebook" />
+               </a>
+            </li>
+            <li>
+                <a href="#.">
+                <img src="images/pinterest-icon.png" alt="Pinterest" title="Pinterest" />
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="grid_2">&nbsp;</div>
+  </div>
+  <div class="clear"></div>
+  <div class="container_16 footerLinksWrap">
+  
+    <div class="grid_2"> &nbsp;	</div>
+    <div class="grid_3">
+		<div class="footerLinks">
+        	<h3 class="footLinkHeading"> Hooray Puree Products </h3>
+            <ul class="footerLinksUl">
+            	<li><a href="#."> Large Kitchens </a></li>
+            	<li><a href="#."> Small Kitchens </a></li>
+            	<li><a href="#."> K-12 Information </a></li>            	
+            </ul>
+        </div>        
+    </div>
+    <div class="grid_3">
+		<div class="footerLinks">
+        	<h3 class="footLinkHeading"> Hooray Puree News </h3>
+            <ul class="footerLinksUl">
+            	<li><a href="#."> Press Releases </a></li>
+            	<li><a href="#."> Hooray Puree In The News </a></li>
+            	<li><a href="#."> Download Press Kit </a></li>            	
+            </ul>
+        </div>
+    </div>
+    <div class="grid_3">
+		<div class="footerLinks">
+        	<h3 class="footLinkHeading"> Upcoming Events </h3>
+            <ul class="footerLinksUl">
+            	<li><a href="#."> SNA ANC - Salt Lake City </a></li>            	
+            </ul>
+        </div>
+    </div>
+    <div class="grid_3">
+		<div class="footerLinks">
+        	<h3 class="footLinkHeading"> Purchase Hooray Puree </h3>
+            <ul class="footerLinksUl">
+            	<li><a href="#."> Buy Now </a></li>
+            	<li><a href="#."> Store Locator </a></li>            	
+            </ul>
+        </div>
+    </div>
+    <div class="grid_2"> &nbsp;	</div>
+  </div> 
+  
+  <div class="clear"></div>
+<section class="footerCopyright">
+  <div class="container_16">
+
+    <div class="grid_2">&nbsp;</div>
+    <div class="grid_12">
+    	<div class="copyright"> Copyright @ 2015 Hooray Puree </div>
+          <ul class="websiteLinks">
+            <li><a href="#."> Privacy Policy </a></li>
+            <li><a href="#."> Legal Terms </a></li>
+            <li><a href="#."> Contact Us </a></li>            
+        </ul>
+    </div>
+    <div class="grid_2">&nbsp;</div>
+  </div>
+  <div class="clear"> </div>
+</section>       
+</footer>
+
+
+
+
+<!-- PopUp One -->
+<div id="popUpAll">
+<section class="popUpBlackBg"></section>
+
+<!-- One -->
+<div id="popUpOne" class="popUpBox">
+   		<section class="pagedata pagedataBgPopUp">
+		    <div class="container containerHomMedainPopUp">
+            	
+                	<div class="closePopUp" id="closePopUp">
+	                    <span class="closePopUpButton"></span>
+                    </div>
+                    <div class="clear"></div>
+                
+                
+                    <div class="container_16 popUpConText">
+                        <ul class="popUpTabing">
+                            <li class="active">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                        
+                        <div class="container_16 popUpMainContent">
+                            <div class="grid_7 stepOne">
+                            	<h1>STEP 1: <br> Create Your post</h1>
+                                <p>Share your favorite way to use Hooray Puree in your everyday life! Whether it’s in your favorite Mac N’ Cheese, or you just throw it into your smoothies for extra nutrients!</p>
+                            </div>
+                            <div class="grid_1">&nbsp;</div>
+                            <div class="grid_8 steoSecondCol">
+                            	<textarea>I use @HoorayPuree as a base to my favorite mashed potatoes! 
+My kids can’t even tell that they’re getting whopping spoonfuls
+of butternut squash in every bite. #50ways</textarea>
+                                <input type="text" value="Next" class="nextButtonPopUp" id="nextButtonPopUp" />
+                            </div>
+                       </div>
+                        
+                    </div>
+                    
+                    <div class="facebookTwet">
+                    	<ul>
+                        	<li><a href="#"><img src="images/share-on-facebook.png" alt="Share on Facebook" title="Share on Facebook" /> </a></li>
+                            <li><a href="#"><img src="images/share-on-twitter.png" alt="Share on Twitter" title="Share on TwitterS" /> </a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </section>
+        
+</div>
+
+
+<!-- Two -->
+<div id="popUpTwo" class="popUpBox">
+   		<section class="pagedata pagedataBgPopUp">
+		    <div class="container containerHomMedainPopUp">
+            	
+                	<div class="closePopUp" id="closePopUp">
+	                    <span class="closePopUpButton"></span>
+                    </div>
+                    <div class="clear"></div>
+                
+                
+                    <div class="container_16 popUpConText">
+                        <ul class="popUpTabing">
+                            <li>1</li>
+                            <li class="active">2</li>
+                            <li>3</li>
+                        </ul>
+                        
+                        <div class="container_16 popUpMainContent">
+                            <div class="grid_7 stepOne">
+                            	<h1>STEP 2: <br>upload a photo</h1>
+                                <p>We want to see your mouth-watering creations! Upload a photo with your post.</p>
+                            </div>
+                            <div class="grid_1">&nbsp;</div>
+                            <div class="grid_8 steoSecondCol">
+                            	<p><img src="images/dragAndDrop.png" width="100%" /></p>
+                                <input type="text" value="Submit" class="submitButtonPopUpOne" id="submitButtonPopUpOne" />
+                            </div>
+                       </div>
+                        
+                    </div>
+                    
+                    <div class="facebookTwet">
+                    	<ul>
+                        	<li><a href="#"><img src="images/share-on-facebook.png" alt="Share on Facebook" title="Share on Facebook" /> </a></li>
+                            <li><a href="#"><img src="images/share-on-twitter.png" alt="Share on Twitter" title="Share on TwitterS" /> </a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </section>
+        
+</div>
+
+
+<!-- Three -->
+<div id="popUpThree" class="popUpBox">
+   		<section class="pagedata pagedataBgPopUp">
+		    <div class="container containerHomMedainPopUp">
+            	
+                	<div class="closePopUp" id="closePopUp">
+	                    <span class="closePopUpButton"></span>
+                    </div>
+                    <div class="clear"></div>
+                
+                
+                    <div class="container_16 popUpConText">
+                        <ul class="popUpTabing">
+                            <li>1</li>
+                            <li class="active">2</li>
+                            <li>3</li>
+                        </ul>
+                        
+                        <div class="container_16 popUpMainContent">
+                            <div class="grid_7 stepOne">
+                            	<h1>STEP 2: <br>upload a photo</h1>
+                                <p>We want to see your mouth-watering creations! Upload a photo with your post.</p>
+                            </div>
+                            <div class="grid_1">&nbsp;</div>
+                            <div class="grid_8 steoSecondCol">
+                            	<p><img src="images/dragDropSelected.png" width="100%" /></p>
+                                <input type="text" value="Submit" class="submitButtonPopUpTwo" id="submitButtonPopUpTwo" />
+                            </div>
+                       </div>
+                        
+                    </div>
+                    
+                    <div class="facebookTwet">
+                    	<ul>
+                        	<li><a href="#"><img src="images/share-on-facebook.png" alt="Share on Facebook" title="Share on Facebook" /> </a></li>
+                            <li><a href="#"><img src="images/share-on-twitter.png" alt="Share on Twitter" title="Share on TwitterS" /> </a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </section>
+        
+</div>
+
+
+
+<!-- Four -->
+<div id="popUpFour" class="popUpBox">
+   		<section class="pagedata pagedataBgPopUp">
+		    <div class="container containerHomMedainPopUp">
+            	
+                	<div class="closePopUp" id="closePopUp">
+	                    <span class="closePopUpButton"></span>
+                    </div>
+                    <div class="clear"></div>
+                
+                
+                    <div class="container_16 popUpConText">
+                        <ul class="popUpTabing">
+                            <li>1</li>
+                            <li>2</li>
+                            <li class="active">3</li>
+                        </ul>
+                        
+                        <div class="container_16 popUpMainContent">
+                            <div class="grid_7 stepOne">
+                            	<h1>STEP 3: <br>thank you!</h1>
+                                <p>Download a free PDF below which showcases our favorite ways to use Hooray Puree in virtually anything!</p>
+                                 <input type="text" value="Download" class="submitButtonPopUpTwo" id="submitButtonPopUpTwo" />
+                            </div>
+                            <div class="grid_1">&nbsp;</div>
+                            <div class="grid_8 steoSecondCol">&nbsp;</div>
+                       </div>
+                        
+                    </div>
+                    
+                    <div class="facebookTwet">
+                    	<ul>
+                        	<li><a href="#"><img src="images/share-on-facebook.png" alt="Share on Facebook" title="Share on Facebook" /> </a></li>
+                            <li><a href="#"><img src="images/share-on-twitter.png" alt="Share on Twitter" title="Share on TwitterS" /> </a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </section>
+        
+</div>
+
+
+
+<!-- Close PopUp -->
+</div>
+
+</body>
+</html>
