@@ -21,7 +21,7 @@
 <script src="js/config.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    $("#openPopUp").click(function(){
+    $(".openPopUp").click(function(){
         $("#popUpAll").css('display','block');
 		$("#popUpAll div#popUpOne").css('display','block');
     });
@@ -85,7 +85,7 @@ $(document).ready(function(){
         <div class="container_16">
             <div class="grid_9 howToUse">
                 <h1>learn 50 ways <br /> to use  <br /> hooray puree!</h1>
-                <div class="playPopup openPopUp" id="openPopUp">
+                <div class="playPopup">
                 	<span class="playPopupButton"> </span>
                 </div>
     		</div>
@@ -95,14 +95,14 @@ $(document).ready(function(){
             </div>
         <h3>Share your favorite way to use  <br /> Hooray Puree for a chance to <br /><span class="textGreenB">win a new ipad!</span></h3>
         <div class="socialButtonBig">
-            <ul>
-                <li class="faceBook-contact">
-                  <a href="#."><img src="images/facebook-contact-button.png" alt="Enter Contest via Facebook!" title="Enter Contest via Facebook!" /></a>
-                </li>
-                <li class="tweet-contact">
-                    <a href="#."><img src="images/tweet-contact-button.png" alt="Entear contect via Twitter!" title="Entear contect via Twitter!" /></a>
-                </li>
-            </ul>
+				<ul>
+					<li class="faceBook-contact openPopUp" id="openPopUp">
+					  <a href="#."><img src="images/facebook-white-button.png" alt="Enter Contest via Facebook!" title="Enter Contest via Facebook!" class="iconImg" /> <span class="textImag">Enter Contest via Facebook!</span></a>
+					</li>
+					<li class="tweet-contact openPopUp" id="openPopUp1">
+						<a href="#."><img src="images/tweet-white-button.png" alt="Entear contect via Twitter!" title="Entear contect via Twitter!" class="iconImg" /> <span class="textImag">Enter contect via Twitter!</span></a>
+					</li>
+				</ul>
                 </div>
     		</div>
         </div>
